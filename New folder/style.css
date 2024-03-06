@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.card {
+  width: 200px;
+  min-width: 200px !important;
+  min-height: 200px !important;
+}
+.card {
+  box-shadow: 5px 5px 5px black !important;
+}
+.select {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  row-gap: 20px !important;
+  justify-content: space-evenly !important;
+}
+
+.cardss {
+  margin-left: 20px !important;
+}
+.navee {
+  display: flex !important;
+  justify-content: space-around !important;
+  column-gap: 5rem !important;
+}
+.navii {
+  transition: all 1s ease-out !important;
+  display: flex;
+  justify-content: flex-end;
+}
